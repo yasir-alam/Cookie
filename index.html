@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set/get cookie</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/JS/JScode.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2>User1</h2>
+        <input type="button" value="Set Cookie" onclick="setCookie('user1Name', 'Yasir', 2)">
+        <input type="button" value="Get Cookie" onclick="alert(getCookie('user1Name'))">
+    </div>
+    <br>
+    <div>
+        <h2>User2</h2>
+        <input type="button" value="Set Cookie" onclick="setCookie('user2Name', 'Alam', 2)">
+        <input type="button" value="Get Cookie" onclick="alert(getCookie('user2Name'))">
+    </div>
+    <br>
+    <div>
+        <h2>Check cookie</h2>
+        <input type="button" value="Check" onclick="checkCookie()">
+    </div>
+
+</body>
+
+</html>
